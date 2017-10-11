@@ -10,5 +10,5 @@ function GetExchangeRate(){
       })
   var json = response.getContentText()
   var data = JSON.parse(json)
-  return data.result.data.data_detail[0].rate)
+  return data.result.data.data_detail[0].rate
 }
